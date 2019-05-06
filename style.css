@@ -8,7 +8,7 @@
                       'g7 g8 g9 bp'
                       'g4 g5 g6 bm'
                       'g1 g2 g3 be'
-                      'g0 g0 bc bc';
+                      'g0 g0 dl bc';
 }
 
 #disp {grid-area: bd;}
@@ -16,6 +16,8 @@
 #minus {grid-area: bm;}
 #equal {grid-area: be;}
 #ce {grid-area: bc;}
+
+#del {grid-area: dl;}
 
 #nul {grid-area: g0;}
 #one {grid-area: g1;}
