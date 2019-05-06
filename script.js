@@ -9,6 +9,11 @@ function clearDisplay() {
 }
 
 function getResult() {
-  console.log(display.innerHTML);
   display.innerHTML = eval(display.innerHTML);
 }
+
+$(function () {
+  $('.addTo').click(function () {
+    display.innerHTML += this.innerHTML;
+  });
+});
