@@ -28,7 +28,8 @@
 #eight {grid-area: g8;}
 #nine {grid-area: g9;}
 
-.grid-item {
+/* .grid-item { */
+.grid-container > div {
   background-color: lightgrey;
   text-align: center;
   padding-top: 30px;

@@ -8,7 +8,7 @@ function clearDisplay() {
   display.innerHTML = '';
 }
 
-function xxx() {
+function getResult() {
   console.log(display.innerHTML);
   display.innerHTML = eval(display.innerHTML);
 }
