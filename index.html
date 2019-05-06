@@ -6,25 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="grid-container">
-    <div class="grid-item disp">display</div>
-    <div class="grid-item plus">+</div>
-    <div class="grid-item minus">-</div>
-    <div class="grid-item equal">=</div>
-    <div class="grid-item ce">CE</div>
+    <div class='grid-item' id='disp'></div>
+    <div class='grid-item' id='plus' onclick="addToDisplay(this)">+</div>
+    <div class='grid-item' id='minus' onclick="addToDisplay(this)">-</div>
+    <div class='grid-item' id='equal' onclick="xxx()">=</div>
+    <div class='grid-item' id='ce' onclick="clearDisplay()">CE</div>
 
-    <div class="grid-item nul">0</div>
-    <div class="grid-item one">1</div>
-    <div class="grid-item two">2</div>
-    <div class="grid-item three">3</div>
-    <div class="grid-item four">4</div>
-    <div class="grid-item five">5</div>
-    <div class="grid-item six">6</div>
-    <div class="grid-item seven">7</div>
-    <div class="grid-item eight">8</div>
-    <div class="grid-item nine">9</div>
+    <div class='grid-item' id='nul' onclick="addToDisplay(this)">0</div>
+    <div class='grid-item' id='one' onclick="addToDisplay(this)">1</div>
+    <div class='grid-item' id='two' onclick="addToDisplay(this)">2</div>
+    <div class='grid-item' id='three' onclick="addToDisplay(this)">3</div>
+    <div class='grid-item' id='four' onclick="addToDisplay(this)">4</div>
+    <div class='grid-item' id='five' onclick="addToDisplay(this)">5</div>
+    <div class='grid-item' id='six' onclick="addToDisplay(this)">6</div>
+    <div class='grid-item' id='seven' onclick="addToDisplay(this)">7</div>
+    <div class='grid-item' id='eight' onclick="addToDisplay(this)">8</div>
+    <div class='grid-item' id='nine' onclick="addToDisplay(this)">9</div>
   </div>   
 </body>
 </html>
