@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+  grid-gap: 10px;
+  justify-content: center;
+  grid-template-areas: 'bd bd bd bd'
+                      'g7 g8 g9 bp'
+                      'g4 g5 g6 bm'
+                      'g1 g2 g3 be'
+                      'g0 g0 bc bc';
+}
+
+.disp {grid-area: bd;}
+.plus {grid-area: bp;}
+.minus {grid-area: bm;}
+.equal {grid-area: be;}
+.ce {grid-area: bc;}
+
+.nul {grid-area: g0;}
+.one {grid-area: g1;}
+.two {grid-area: g2;}
+.three {grid-area: g3;}
+.four {grid-area: g4;}
+.five {grid-area: g5;}
+.six {grid-area: g6;}
+.seven {grid-area: g7;}
+.eight {grid-area: g8;}
+.nine {grid-area: g9;}
+
+.grid-item {
+  background-color: lightgrey;
+  text-align: center;
+  padding-top: 30px;
+}
