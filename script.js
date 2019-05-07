@@ -27,11 +27,4 @@ $(function () {
     display.innerHTML += this.innerHTML;
   });
 
-  $('.hover').mouseenter(function () {
-    $(this).css('backgroundColor', 'grey');
-  })
-
-  $('.hover').mouseleave(function () {
-    $(this).css('backgroundColor', 'lightgrey');
-  })
 });
