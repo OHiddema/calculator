@@ -38,7 +38,7 @@
   border-radius: 10px;
 }
 
-.hover:hover {
+.grid-container > :not(:first-child):hover {
   background-color:grey;
   cursor: pointer;
 }
