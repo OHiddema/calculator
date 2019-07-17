@@ -1,15 +1,21 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 80px);
+  grid-template-columns: repeat(5, 80px);
   grid-template-rows: repeat(5, 80px);
   grid-gap: 10px;
   justify-content: center;
-  grid-template-areas: 'bd bd bd bd'
-                      'g7 g8 g9 bp'
-                      'g4 g5 g6 bm'
-                      'g1 g2 g3 be'
-                      'g0 g0 dl bc';
+  grid-template-areas: 'bd bd bd bd bd'
+                      'g7 g8 g9 bp mult'
+                      'g4 g5 g6 bm div'
+                      'g1 g2 g3 be bropen'
+                      'point g0 dl bc brclose';
 }
+
+#mult {grid-area: mult;}
+#div {grid-area: div;}
+#point {grid-area: point;}
+#bropen {grid-area: bropen;}
+#brclose {grid-area: brclose;}
 
 #disp {grid-area: bd;}
 #plus {grid-area: bp;}
